@@ -1,0 +1,1502 @@
+{
+ "characters": {
+  "defaultDuration": 0.5,
+  "sceneOrigin": [
+   0.5,
+   0.0
+  ],
+  "meta": {
+   "character": {
+    "id": "Character",
+    "name": "莉莉丝",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "LayeredCharacter",
+    "voiceSource": null
+   },
+   "desk": {
+    "id": "Desk",
+    "name": "书桌",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "SpriteCharacter",
+    "voiceSource": null
+   },
+   "king": {
+    "id": "King",
+    "name": "国王",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "LayeredCharacter",
+    "voiceSource": null
+   },
+   "suitman": {
+    "id": "Suitman",
+    "name": "那个人",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "LayeredCharacter",
+    "voiceSource": null
+   },
+   "microwave": {
+    "id": "Microwave",
+    "name": "",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "LayeredCharacter",
+    "voiceSource": null
+   },
+   "mysterious_girl": {
+    "id": "Mysterious_Girl",
+    "name": "神秘少女",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "SpriteCharacter",
+    "voiceSource": null
+   },
+   "lilith": {
+    "id": "Lilith",
+    "name": "莉莉丝",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "LayeredCharacter",
+    "voiceSource": null
+   },
+   "sartre": {
+    "id": "Sartre",
+    "name": "夏特露酱",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "LayeredCharacter",
+    "voiceSource": null
+   },
+   "fouco": {
+    "id": "Fouco",
+    "name": "弗子酱",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "LayeredCharacter",
+    "voiceSource": null
+   },
+   "lilith_1": {
+    "id": "Lilith_1",
+    "name": "莉莉丝",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "LayeredCharacter",
+    "voiceSource": null
+   },
+   "table": {
+    "id": "Table",
+    "name": "",
+    "pivot": [
+     0.5,
+     0.5
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "LayeredCharacter",
+    "voiceSource": null
+   },
+   "sofa": {
+    "id": "Sofa",
+    "name": "",
+    "pivot": [
+     0.5,
+     0.5
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "LayeredCharacter",
+    "voiceSource": null
+   },
+   "cake": {
+    "id": "Cake",
+    "name": "蛋糕",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "LayeredCharacter",
+    "voiceSource": null
+   },
+   "sartre_1": {
+    "id": "Sartre_1",
+    "name": "夏特露酱",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "LayeredCharacter",
+    "voiceSource": null
+   },
+   "ferriswheel": {
+    "id": "Ferriswheel",
+    "name": "烤箱",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "LayeredCharacter",
+    "voiceSource": null
+   },
+   "blacknote": {
+    "id": "Blacknote",
+    "name": "黑色笔记本",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 0.1764705926179886,
+     "g": 0.1764705926179886,
+     "b": 0.1764705926179886,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "LayeredCharacter",
+    "voiceSource": null
+   },
+   "nurse": {
+    "id": "Nurse",
+    "name": "莉莉丝",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "LayeredCharacter",
+    "voiceSource": null
+   },
+   "pill_green": {
+    "id": "Pill_green",
+    "name": "绿色药丸",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "LayeredCharacter",
+    "voiceSource": null
+   },
+   "pill_pink": {
+    "id": "Pill_pink",
+    "name": "粉色药丸",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "LayeredCharacter",
+    "voiceSource": null
+   },
+   "pill_yellow": {
+    "id": "Pill_yellow",
+    "name": "黄色药丸",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "LayeredCharacter",
+    "voiceSource": null
+   },
+   "cg_3": {
+    "id": "CG_3",
+    "name": "莉莉丝",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "LayeredCharacter",
+    "voiceSource": null
+   },
+   "cg_4": {
+    "id": "CG_4",
+    "name": "莉莉丝",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "LayeredCharacter",
+    "voiceSource": null
+   },
+   "cg_6": {
+    "id": "CG_6",
+    "name": "莉莉丝",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "LayeredCharacter",
+    "voiceSource": null
+   },
+   "cg_7": {
+    "id": "CG_7",
+    "name": "莉莉丝",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "LayeredCharacter",
+    "voiceSource": null
+   },
+   "cg_8": {
+    "id": "CG_8",
+    "name": "",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "LayeredCharacter",
+    "voiceSource": null
+   },
+   "qlilith": {
+    "id": "QLilith",
+    "name": "莉莉丝",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "LayeredCharacter",
+    "voiceSource": null
+   },
+   "chair": {
+    "id": "Chair",
+    "name": "椅子",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "SpriteCharacter",
+    "voiceSource": null
+   },
+   "mirror": {
+    "id": "Mirror",
+    "name": "镜子",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "SpriteCharacter",
+    "voiceSource": null
+   },
+   "radio": {
+    "id": "Radio",
+    "name": "收音机",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "SpriteCharacter",
+    "voiceSource": null
+   },
+   "floor": {
+    "id": "Floor",
+    "name": "地板",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "SpriteCharacter",
+    "voiceSource": null
+   },
+   "bedsheet": {
+    "id": "Bedsheet",
+    "name": "床单",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "SpriteCharacter",
+    "voiceSource": null
+   },
+   "black_notebook": {
+    "id": "Black_Notebook",
+    "name": "黑色笔记本",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "SpriteCharacter",
+    "voiceSource": null
+   },
+   "oven": {
+    "id": "Oven",
+    "name": "烤箱",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "SpriteCharacter",
+    "voiceSource": null
+   },
+   "low_gluten_flour": {
+    "id": "Low_Gluten_Flour",
+    "name": "低筋面粉",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "SpriteCharacter",
+    "voiceSource": null
+   },
+   "milk": {
+    "id": "Milk",
+    "name": "牛奶",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "SpriteCharacter",
+    "voiceSource": null
+   },
+   "egg": {
+    "id": "Egg",
+    "name": "鸡蛋",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "SpriteCharacter",
+    "voiceSource": null
+   },
+   "caster_sugar": {
+    "id": "Caster_Sugar",
+    "name": "细砂糖",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "SpriteCharacter",
+    "voiceSource": null
+   },
+   "dish_drying_rack": {
+    "id": "Dish_Drying_Rack",
+    "name": "沥水架",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "SpriteCharacter",
+    "voiceSource": null
+   },
+   "cooking_oil": {
+    "id": "Cooking_Oil",
+    "name": "食用油",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "SpriteCharacter",
+    "voiceSource": null
+   },
+   "window": {
+    "id": "Window",
+    "name": "窗户",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "SpriteCharacter",
+    "voiceSource": null
+   },
+   "pillow": {
+    "id": "Pillow",
+    "name": "枕头",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "SpriteCharacter",
+    "voiceSource": null
+   },
+   "scholar": {
+    "id": "Scholar",
+    "name": "学者",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "SpriteCharacter",
+    "voiceSource": null
+   },
+   "thecanonofpursuingdreams": {
+    "id": "TheCanonOfPursuingDreams",
+    "name": "逐梦之典",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "SpriteCharacter",
+    "voiceSource": null
+   },
+   "demonking": {
+    "id": "DemonKing",
+    "name": "魔王",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "SpriteCharacter",
+    "voiceSource": null
+   },
+   "princesslilith": {
+    "id": "PrincessLilith",
+    "name": "莉莉丝公主",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "SpriteCharacter",
+    "voiceSource": null
+   },
+   "demonkinglilith": {
+    "id": "DemonKingLilith",
+    "name": "魔王莉莉丝",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "SpriteCharacter",
+    "voiceSource": null
+   },
+   "headband": {
+    "id": "Headband",
+    "name": "发带",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "SpriteCharacter",
+    "voiceSource": null
+   },
+   "wall": {
+    "id": "Wall",
+    "name": "墙壁",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "SpriteCharacter",
+    "voiceSource": null
+   },
+   "watch": {
+    "id": "Watch",
+    "name": "手表",
+    "pivot": [
+     0.5,
+     0.0
+    ],
+    "ppu": 100.0,
+    "useColor": 0,
+    "nameColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "msgColor": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "linkedPrinter": null,
+    "impl": "SpriteCharacter",
+    "voiceSource": null
+   }
+  },
+  "zOffset": 50.0,
+  "zStep": 0.10000000149011612,
+  "autoArrange": 1,
+  "arrangeRange": [
+   0.0,
+   1.0
+  ]
+ },
+ "backgrounds": {
+  "defaultDuration": 0.3499999940395355,
+  "sceneOrigin": [
+   0.5,
+   0.0
+  ],
+  "ids": [
+   "MainBackground",
+   ""
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ]
+ },
+ "printers": {
+  "default": "Dialogue",
+  "baseReveal": 0.5,
+  "baseAutoDelay": 0.5,
+  "maxRevealDelay": 0.05999999865889549,
+  "maxAutoWait": 0.019999999552965164,
+  "scaleAutoWait": 1,
+  "meta": {
+   "dialogue": {
+    "id": "Dialogue"
+   },
+   "fullscreen": {
+    "id": "Fullscreen"
+   },
+   "wide": {
+    "id": "Wide"
+   },
+   "chat": {
+    "id": "Chat"
+   },
+   "bubble": {
+    "id": "Bubble"
+   },
+   "chapter_title": {
+    "id": "Chapter_Title"
+   },
+   "dialogue_player": {
+    "id": "Dialogue_Player"
+   }
+  }
+ },
+ "player": {
+  "skipTimeScale": 10.0,
+  "minAutoDelay": 1.0
+ },
+ "scripts": {
+  "title": "Title",
+  "start": "Prologue0_0"
+ },
+ "variables": [
+  [
+   "CanOpenLog",
+   "False"
+  ],
+  [
+   "IsOpenLog",
+   "False"
+  ],
+  [
+   "QTEScore",
+   "0"
+  ],
+  [
+   "GameCycle",
+   "0"
+  ],
+  [
+   "ClearName",
+   "False"
+  ],
+  [
+   "Negative",
+   "0"
+  ],
+  [
+   "LikAbility",
+   "0"
+  ],
+  [
+   "G_END1",
+   "\"False\""
+  ],
+  [
+   "G_END2",
+   "\"False\""
+  ],
+  [
+   "G_END3",
+   "\"False\""
+  ],
+  [
+   "G_CurrentEnd",
+   ""
+  ],
+  [
+   "G_Achievement_1",
+   "\"False\""
+  ],
+  [
+   "G_Achievement_2",
+   "\"False\""
+  ],
+  [
+   "G_Achievement_3",
+   "\"False\""
+  ],
+  [
+   "G_Achievement_4",
+   "\"False\""
+  ],
+  [
+   "G_Achievement_5",
+   "\"False\""
+  ],
+  [
+   "G_Achievement_6",
+   "\"False\""
+  ],
+  [
+   "G_Achievement_7",
+   "\"False\""
+  ],
+  [
+   "G_Achievement_8",
+   "\"False\""
+  ],
+  [
+   "G_Achievement_9",
+   "\"False\""
+  ],
+  [
+   "G_Achievement_10",
+   "\"False\""
+  ],
+  [
+   "G_Achievement_11",
+   "\"False\""
+  ],
+  [
+   "G_Achievement_12",
+   "\"False\""
+  ],
+  [
+   "G_Achievement_13",
+   "\"False\""
+  ],
+  [
+   "G_Achievement_14",
+   "\"False\""
+  ],
+  [
+   "G_Achievement_15",
+   "\"False\""
+  ],
+  [
+   "G_Achievement_16",
+   "\"False\""
+  ],
+  [
+   "G_Achievement_17",
+   "\"False\""
+  ],
+  [
+   "G_Achievement_18",
+   "\"False\""
+  ],
+  [
+   "G_Achievement_19",
+   "\"False\""
+  ],
+  [
+   "G_Achievement_20",
+   "\"False\""
+  ],
+  [
+   "G_Achievement_21",
+   "\"False\""
+  ],
+  [
+   "G_Achievement_22",
+   "\"False\""
+  ],
+  [
+   "G_Achievement_23",
+   "\"False\""
+  ],
+  [
+   "G_Achievement_24",
+   "\"False\""
+  ],
+  [
+   "G_Achievement_25",
+   "\"False\""
+  ],
+  [
+   "G_Achievement_26",
+   "\"False\""
+  ],
+  [
+   "G_Achievement_27",
+   "\"False\""
+  ],
+  [
+   "G_Achievement_28",
+   "\"False\""
+  ],
+  [
+   "G_Achievement_29",
+   "\"False\""
+  ],
+  [
+   "G_Achievement_30",
+   "\"False\""
+  ],
+  [
+   "G_Achievement_31",
+   "\"False\""
+  ],
+  [
+   "G_BackTitle",
+   "1"
+  ],
+  [
+   "EraseName",
+   "\"False\""
+  ],
+  [
+   "G_PassPrologue6",
+   "\"False\""
+  ]
+ ],
+ "camera": {
+  "ref": [
+   3840,
+   2160
+  ]
+ },
+ "audio": {
+  "voiceLocales": [
+   "zh-CN",
+   "ja",
+   "en",
+   "es"
+  ],
+  "fade": 0.3499999940395355,
+  "autoVoice": 1
+ },
+ "movies": {
+  "fade": 1.0
+ },
+ "locale": {
+  "source": "zh-CN",
+  "default": "zh-CN"
+ }
+}

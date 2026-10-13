@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dialogue Editor — The NOexistenceN of you AND me</title>
+<link rel="stylesheet" href="css/fonts.css">
+<style>
+:root { --bg:#14141a; --panel:#1d1d26; --panel2:#262632; --line:#33334a; --fg:#e8e8f0; --dim:#9a9ab0; --acc:#e0485c; --acc2:#5aa0ff; --ok:#4cc38a; --warn:#f0b040; }
+* { box-sizing: border-box; }
+html, body { margin:0; height:100%; background:var(--bg); color:var(--fg); font:14px/1.45 system-ui,'Main','MainKR',sans-serif; }
+body { display:flex; flex-direction:column; }
+button, select, input, textarea { font:inherit; color:var(--fg); background:var(--panel2); border:1px solid var(--line); border-radius:6px; padding:5px 10px; }
+button { cursor:pointer; } button:hover { border-color:var(--acc2); } button.primary { background:var(--acc); border-color:var(--acc); color:#fff; } button.danger:hover { border-color:var(--acc); color:var(--acc); }
+button:disabled { opacity:.4; cursor:default; }
+header { display:flex; flex-wrap:wrap; gap:8px; align-items:center; padding:10px 14px; background:var(--panel); border-bottom:1px solid var(--line); }
+header h1 { font-size:15px; margin:0 12px 0 0; font-weight:600; } header .sp { flex:1; }
+.badge { padding:2px 8px; border-radius:10px; background:var(--panel2); color:var(--dim); font-size:12px; } .badge.dirty { color:var(--warn); } .badge.active { color:var(--ok); }
+main { flex:1; display:flex; min-height:0; }
+aside { width:250px; flex:none; overflow:auto; background:var(--panel); border-right:1px solid var(--line); padding:10px; }
+aside h3 { margin:14px 0 6px; font-size:11px; letter-spacing:.08em; text-transform:uppercase; color:var(--dim); }
+aside .item { display:flex; justify-content:space-between; padding:5px 8px; border-radius:6px; cursor:pointer; } aside .item:hover { background:var(--panel2); } aside .item.sel { background:var(--acc); color:#fff; }
+aside .item .n { color:var(--dim); font-size:12px; } aside .item.sel .n { color:#fde; } aside .item .n.mod { color:var(--warn); font-weight:600; }
+section { flex:1; display:flex; flex-direction:column; min-width:0; }
+.toolbar { display:flex; flex-wrap:wrap; gap:8px; align-items:center; padding:8px 14px; border-bottom:1px solid var(--line); background:var(--panel); }
+.toolbar input[type=search] { width:240px; } .toolbar input.rp { width:150px; }
+#rows { flex:1; overflow:auto; padding:6px 14px 80px; }
+.sec { position:sticky; top:0; z-index:2; margin:14px 0 4px; padding:4px 10px; background:var(--panel2); border-left:3px solid var(--acc2); color:var(--acc2); font-size:12px; border-radius:4px; }
+.row { display:grid; grid-template-columns: 54px 150px 1fr 1fr 74px; gap:10px; padding:8px 0; border-bottom:1px solid #22222d; content-visibility:auto; contain-intrinsic-size:auto 96px; }
+.row.mod { background:linear-gradient(90deg, rgba(240,176,64,.10), transparent 40%); }
+.row .idx { color:var(--dim); font-size:12px; } .row .idx b { display:block; color:var(--fg); font-weight:500; }
+.row .who { color:var(--acc); font-weight:600; word-break:break-all; } .row .who small { display:block; color:var(--dim); font-weight:400; font-size:11px; word-break:break-all; }
+.row .kind { display:inline-block; margin-top:2px; padding:0 6px; border-radius:8px; background:var(--panel2); color:var(--acc2); font-size:11px; }
+.orig { color:var(--dim); white-space:pre-wrap; word-break:break-word; padding:5px 0; font-family:'Main','MainKR',system-ui,sans-serif; }
+.edit textarea { width:100%; min-height:54px; resize:vertical; font-family:'Main','MainKR',system-ui,sans-serif; line-height:1.5; }
+.row.mod .edit textarea { border-color:var(--warn); }
+.prev { margin-top:4px; padding:6px 8px; background:#0b0b10; border-radius:6px; font-family:'Main','MainKR',system-ui,sans-serif; font-size:15px; } .prev i { color:#bcd; } .prev ruby rt { font-size:.55em; color:var(--warn); }
+.acts { display:flex; flex-direction:column; gap:4px; } .acts button { padding:3px 6px; font-size:12px; }
+.empty { padding:50px; text-align:center; color:var(--dim); }
+dialog { background:var(--panel); color:var(--fg); border:1px solid var(--line); border-radius:10px; padding:18px; min-width:360px; } dialog::backdrop { background:rgba(0,0,0,.6); } dialog h2 { margin:0 0 12px; font-size:16px; }
+dialog .btns { display:flex; gap:8px; justify-content:flex-end; margin-top:14px; } dialog input[type=text] { width:100%; }
+#toast { position:fixed; right:18px; bottom:18px; padding:10px 16px; background:var(--panel2); border:1px solid var(--ok); border-radius:8px; opacity:0; transition:opacity .25s; pointer-events:none; } #toast.on { opacity:1; }
+@media (max-width: 900px) { aside { width:160px; } .row { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Dialogue Editor</h1>
+  <label>Config <select id="cfgSel"></select></label>
+  <button id="bNew">New</button>
+  <button id="bSave" class="primary">Save</button>
+  <button id="bSaveAs">Save as…</button>
+  <button id="bDel" class="danger">Delete</button>
+  <button id="bImport">Import…</button>
+  <button id="bExport">Export</button>
+  <input type="file" id="fileIn" accept=".json,application/json" hidden>
+  <label title="The game uses this config for the current browser"><input type="checkbox" id="useGame"> Use in game</label>
+  <span class="badge" id="stat">0 edits</span>
+  <span class="sp"></span>
+  <label>Language <select id="locSel"></select></label>
+  <a href="index.html" id="gameLink" target="_blank" rel="noopener"><button>Open game ↗</button></a>
+</header>
+<main>
+  <aside>
+    <h3>View</h3>
+    <div class="item sel" data-view="dlg"><span>Dialogue &amp; choices</span></div>
+    <div class="item" data-view="ui"><span>UI text &amp; character names</span></div>
+    <h3 id="listTitle">Scripts</h3>
+    <div id="list"></div>
+  </aside>
+  <section>
+    <div class="toolbar">
+      <input type="search" id="q" placeholder="Search id / speaker / text…">
+      <label><input type="checkbox" id="onlyMod"> modified only</label>
+      <label><input type="checkbox" id="showPrev" checked> preview</label>
+      <span style="flex:1"></span>
+      <input class="rp" id="rpFind" placeholder="find (this list)"><input class="rp" id="rpWith" placeholder="replace with"><button id="bReplace">Replace all</button>
+      <button id="bRevertList" class="danger">Revert list</button>
+    </div>
+    <div id="rows"></div>
+  </section>
+</main>
+<dialog id="dlg"><h2 id="dlgTitle"></h2><div id="dlgBody"></div><div class="btns"><button id="dlgCancel">Cancel</button><button id="dlgOk" class="primary">OK</button></div></dialog>
+<div id="toast"></div>
+<script type="module" src="js/editor.js"></script>
+</body>
+</html>

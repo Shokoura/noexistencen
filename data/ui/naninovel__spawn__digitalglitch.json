@@ -1,0 +1,1 @@
+{"n":"DigitalGlitch","id":13229,"on":1,"tr":{"pos":[0.0,0.0,0.0],"sc":[1.0,1.0,1.0],"rot":0.0},"c":[{"m_Enabled":1,"m_Name":"","glitchShader":{"p":"naninovel/shaders/digitalglitch","n":null,"r":1232},"glitchTexture":{"sp":"t793"},"defaultDuration":1.0,"defaultIntensity":1.0,"$id":24664,"$c":"DigitalGlitch"}]}

@@ -1,0 +1,1 @@
+{"name":"ExitGame","labels":{},"lines":[[{"c":"PrintText","p":{"Text":{"t":[{"id":"~eb5553a3","s":null,"x":null,"e":null}]},"RevealSpeed":1.0}}],[{"c":"PrintText","p":{"Wait":1,"Text":{"t":[{"id":"~1d04308c","s":null,"x":null,"e":null}]},"RevealSpeed":1.0,"WaitForInput":1}}],[{"c":"Stop","p":{}}]]}

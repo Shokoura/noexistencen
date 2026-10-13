@@ -1,0 +1,1 @@
+var a={exitToTitle:async()=>{},exitGame:async()=>{},movie:async()=>{},subtitle:async()=>{},startPoint:async()=>{},startErase:async()=>{},startQTE:async()=>{},fakeBacklog:async()=>{},setControlPanel:()=>{},save:async()=>{},deleteSave:async()=>{},passEnd:async()=>{},achievement:()=>{},toast:()=>{}};export{a};

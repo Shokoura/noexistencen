@@ -1,0 +1,1 @@
+{"name":"StartGame","labels":{},"lines":[[{"c":"SetCustomVariable","p":{"Expression":"CanOpenLog=false;"}}],[{"c":"SetCustomVariable","p":{"Expression":"IsOpenLog=True;"}}],[{"c":"SetCustomVariable","p":{"Expression":"QTEScore=0;"}}],[{"c":"SetCustomVariable","p":{"Expression":"Clearlilith=false"}}],[{"c":"Goto","p":{"Path":{"n":"Prologue0_0","v":"Dialogue0"}}}]]}
